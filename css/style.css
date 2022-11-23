@@ -1,0 +1,43 @@
+#title{
+    font-size: 3vw;
+}
+#phone{
+    display: none;
+}
+#pc
+{
+    display: block;
+}
+@media only screen and (max-width: 768px) {
+/* For mobile phones: */
+#title {
+font-size: 6vw;
+}
+#pc{
+display: none;
+}
+#phone{
+display: block;
+}
+}
+@media only screen and (max-width: 310px) {
+/* For mobile phones: */
+#title {
+font-size: 5vw;
+color: black!important;
+}
+}
+.o-card{
+    min-width: 169px!important;
+    max-width: 320px!important;
+}
+.m-card{
+    min-width: 250px!important;
+    max-width: 250px!important;
+}
+ol {counter-reset: item;}
+ol li {display: block;}
+ol li:before {content: counter(item) ". "; counter-increment: item; font-weight: bold;}
+li{
+    overflow-x: auto;
+}
