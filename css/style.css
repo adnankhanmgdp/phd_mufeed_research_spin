@@ -1,5 +1,5 @@
 #title{
-    font-size: 3vw;
+    font-size: 2vw;
 }
 #phone{
     display: none;
@@ -11,7 +11,7 @@
 @media only screen and (max-width: 768px) {
 /* For mobile phones: */
 #title {
-font-size: 6vw;
+font-size: 8vw;
 }
 #pc{
 display: none;
@@ -23,8 +23,8 @@ display: block;
 @media only screen and (max-width: 310px) {
 /* For mobile phones: */
 #title {
-font-size: 5vw;
-color: black!important;
+font-size:8vw;
+/* color: black!important; */
 }
 }
 .o-card{
